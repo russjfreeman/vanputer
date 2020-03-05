@@ -40,6 +40,9 @@ It could do much much more but for me, for now, I just want the little data coll
 * Power used for inverter (maybe an alarm if we detect no 240 usage but inverter on and everyone asleep or out) 
 * Power used (for everything)
 * Gas usage
+* All kinds of alarms (bad gases)
+* Could record various cameras
+* Collision detection
 * Anything we can get from the OBD2? (Yeah, I reckon so)
 * Things I can't imagine yet
 
