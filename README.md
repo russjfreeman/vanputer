@@ -61,10 +61,10 @@ Questions like;
 * What impact does vapour barrier have (Yup, it's going in my van)
 * How much power does a 320w panel on the roof of a van generate and what are the variables
 * How much power is really lost through an inverter
-* How much power do two remote workers living in a van use?
+* How much power does a remote worker, with a laptop, living full time in a van use?
 * Same for gas?
 * How long does a/this vanlifer linger in one place (3 days, or weeks?)
-* What are the best places to linger? :-)
+* What are the best places to linger? arf! :-)
 * How much diesel used, to go how far
 
 Hopefully, with what I'd like to do, we'll be able to answer those questions fairly easily because, with it being open for anyone to use or contribute to, we should see lots of different configurations of vans from lots of different people (Yes, I am an optimist).
