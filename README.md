@@ -22,7 +22,7 @@ It could do much much more but for me, for now, I just want the little data coll
 * If no Internet then store all data locally and sync when can
 * If no Internet wait a predetermined time and then start scanning for available open networks, then use the VPN
 * All data sent to server to be encrypted (how, if it's OS?)
-* Log GPS and send home every n seconds
+* Log GPS and send home every n seconds - homebrew GPS tracker
 * Daylight times
 * sunshine times (can we differentiate between direct and shady?)
 * rain
@@ -33,8 +33,9 @@ It could do much much more but for me, for now, I just want the little data coll
 * Time spent shower/washing up (gas to hot water heater)
 * Air pressure
 * Temperature outisde, inside the van, inside the insulaton
+* Time fans were running
 * Power generated throgh solar
-* Van direction
+* Van direction/orientaton
 * Tilt and yaw (if that's right) of the van (for consideration in solar generation)
 * Power generated through driving
 * Power used for inverter (maybe an alarm if we detect no 240 usage but inverter on and everyone asleep or out) 
@@ -44,6 +45,7 @@ It could do much much more but for me, for now, I just want the little data coll
 * Could record various cameras
 * Collision detection
 * Anything we can get from the OBD2? (Yeah, I reckon so)
+* Send text when panicking
 * Things I can't imagine yet
 
 ## But whhhhhhhhhhhhhhyyyyyy?
@@ -53,16 +55,17 @@ Also, I'd like to disprove or prove some theories and a little device like this 
 
 Questions like;
 * What impact does vapour barrier have (Yup, it's going in my van)
-* How much power does a 320w panel on the roof of a van generate
+* How much power does a 320w panel on the roof of a van generate and what are the variables
 * How much power is really lost through an inverter
 * How much power do two remote workers living in a van use?
 * Same for gas?
 * How long does a/this vanlifer linger in one place (3 days, or weeks?)
 * What are the best places to linger? :-)
+* How much diesel used to go how far
 
 Hopefully, with what I'd like to do, we'll be able to answer those questions fairly easily because, with it being open for anyone to use or contribute to, we should see lots of different configurations of vans from lots of different people (Yes, I am an optimist).
 
-I'm not planning to make money from this, it's just becuase I am curious and it seems like a fun project.
+I'm not planning to make money from this, it's just because I am curious and it seems like a fun project.
 
 That's it, that's the sum of all my thoughts on it for now.
 
