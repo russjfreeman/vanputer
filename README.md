@@ -1,11 +1,13 @@
 # vanputer
 A Rasperry Pi sensor collection for all you vanlifers :-)
 
-I'm currently in the process of converting a Sprinter LWB into a home for my girlfriend and I for the next few years, and being a software developer I saw it as a chance to collect some real world data.
+A grand plan, and like so many projects it may end up going nowhere BUT it seems pretty interesting and fun so...
+
+I'm currently in the process of converting a Mercedes Benz Sprinter LWB into a home for me for the next few years, and being a software developer I saw it as a chance to collect some real world data.
 
 So while the van build is in progress I'd like to use this repo for my own notes and so I can share ideas with others.
 
-My experience is 30 years of writing software from 6502 and z80 assembler to my current favourite NodeJS, and so that's the tool I'll be using.
+My experience is 30+ years of writing software from 6502 and z80 assembler to my current favourite NodeJS, and so that's the tool I'll be using.
 
 I have zero experience with Raspberry Pi (and don't currently own one) and zero experience with Linux. But, I also have zero experience of turning an empty panel van into a home but I'm still doing that :-)
 
@@ -32,6 +34,8 @@ It could do much much more but for me, for now, I just want the little data coll
 * Time spent cooking (gas to stove)
 * Time spent shower/washing up (gas to hot water heater)
 * Air pressure
+* Altitude
+* Air pollution
 * Temperature outisde, inside the van, inside the insulaton
 * Time fans were running
 * Power generated throgh solar
@@ -61,7 +65,7 @@ Questions like;
 * Same for gas?
 * How long does a/this vanlifer linger in one place (3 days, or weeks?)
 * What are the best places to linger? :-)
-* How much diesel used to go how far
+* How much diesel used, to go how far
 
 Hopefully, with what I'd like to do, we'll be able to answer those questions fairly easily because, with it being open for anyone to use or contribute to, we should see lots of different configurations of vans from lots of different people (Yes, I am an optimist).
 
