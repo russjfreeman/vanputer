@@ -1,15 +1,15 @@
 # vanputer
-A Rasperry Pi sensor collection for all you vanlifers :-)
+A Rasperry Pi sensor collection for us vanlifers :-)
 
 A grand plan, and like so many projects it may end up going nowhere BUT it seems pretty interesting and fun so...
 
-I'm currently in the process of converting a Mercedes Benz Sprinter LWB into a home for me for the next few years, and being a software developer I saw it as a chance to collect some real world data.
+I'm currently in the process of converting a Mercedes Benz Sprinter LWB into a home for me and my girlfriend for the next few years, and being a software developer I saw it as a chance to collect some real world data.
 
 So while the van build is in progress I'd like to use this repo for my own notes and so I can share ideas with others.
 
 My experience is 30+ years of writing software from 6502 and z80 assembler to my current favourite NodeJS, and so that's the tool I'll be using.
 
-I have zero experience with Raspberry Pi (and don't currently own one) and zero experience with Linux. But, I also have zero experience of turning an empty panel van into a home but I'm still doing that :-)
+I have zero experience with Raspberry Pi (Just got one, woohoo) and zero experience with Linux. But, I also have zero experience of turning an empty panel van into a home but I'm still doing that :-)
 
 ## What is it?
 Imagine a little computer running in your van, using your mobile internet when it can (and frugally, and configurably) to phone home to your OWN or a provider's server, where all your data is stored and potentially shared with friends and family (perhaps not GPS, that needs to lag a week or so).
@@ -22,8 +22,7 @@ It could do much much more but for me, for now, I just want the little data coll
 
 ## What I'd like it to do
 * If no Internet then store all data locally and sync when can
-* If no Internet wait a predetermined time and then start scanning for available open networks, then use the VPN
-* All data sent to server to be encrypted (how, if it's OS?)
+* All data sent to server to be encrypted
 * Log GPS and send home every n seconds - homebrew GPS tracker
 * Daylight times
 * sunshine times (can we differentiate between direct and shady?)
@@ -38,7 +37,7 @@ It could do much much more but for me, for now, I just want the little data coll
 * Air pollution
 * Temperature outisde, inside the van, inside the insulaton
 * Time fans were running
-* Power generated throgh solar
+* Power generated through solar
 * Van direction/orientaton
 * Tilt and yaw (if that's right) of the van (for consideration in solar generation)
 * Power generated through driving
@@ -47,8 +46,9 @@ It could do much much more but for me, for now, I just want the little data coll
 * Gas usage
 * All kinds of alarms (bad gases)
 * Could record various cameras
-* Collision detection
+* Collision detection/alarm
 * Anything we can get from the OBD2? (Yeah, I reckon so)
+* Integration with Alexa/Siri?
 * Send text when panicking
 * Things I can't imagine yet
 
@@ -61,7 +61,7 @@ Questions like;
 * What impact does vapour barrier have (Yup, it's going in my van)
 * How much power does a 320w panel on the roof of a van generate and what are the variables
 * How much power is really lost through an inverter
-* How much power does a remote worker, with a laptop, living full time in a van use?
+* How much power does a remote worker, with a powerful laptop, living full time in a van use?
 * Same for gas?
 * How long does a/this vanlifer linger in one place (3 days, or weeks?)
 * What are the best places to linger? arf! :-)
@@ -78,3 +78,4 @@ Thank you for reading, and please do get in touch if you have a similar project 
 Also, please let me know of any ideas you might have about how I might achieve this little project (esp. hardware).
 
 :-)
+
