@@ -18,22 +18,27 @@ This little, low power, computer can do anything a desktop or laptop can (more o
 
 So you'll browse to it's web site and you'll see all the data on whatever sensors you have set up.
 
-It could do much much more but for me, for now, I just want the little data collector...and the fun project too for those long winter days spent in Morocco...
+It could do much much more but for me, for now, I just want the little data collector...and the fun project too.
 
 ## What I'd like it to do
+Don't get me wrong here, this is a list of dreams (Although I am working on the GPS tracker right now) and nothing more really. I have no idea whether any of the below is possible but if it is then I can do it.
+
+* Should auto-update when new version is available, automatically when it's no big changes
 * If no Internet then store all data locally and sync when can
-* All data sent to server to be encrypted
+* All data sent to server is encrypted
 * Log GPS and send home every n seconds - homebrew GPS tracker
 * Daylight times
 * sunshine times (can we differentiate between direct and shady?)
 * rain
 * Humidity outside, inside the van, inside the insulation
-* Water usage
+* Water usage (could seperate shower from sink)
 * Water temperature
+* Grey tank measurments
 * Time spent cooking (gas to stove)
 * Time spent shower/washing up (gas to hot water heater)
-* Air pressure
-* Altitude
+* Baroetric pressure
+* Weather prediction details for that day (scraped from somewhere).
+* Altitude  
 * Air pollution
 * Temperature outisde, inside the van, inside the insulaton
 * Time fans were running
@@ -44,13 +49,22 @@ It could do much much more but for me, for now, I just want the little data coll
 * Power used for inverter (maybe an alarm if we detect no 240 usage but inverter on and everyone asleep or out) 
 * Power used (for everything)
 * Gas usage
+* Monitoring ODB2
+* Monitoring of the CAN bus within the van
 * All kinds of alarms (bad gases)
 * Could record various cameras
 * Collision detection/alarm
-* Anything we can get from the OBD2? (Yeah, I reckon so)
-* Integration with Alexa/Siri?
-* Send text when panicking
-* Things I can't imagine yet
+* Integration with Alexa/Siri? (Hey Alexa, switch off the lights/what's our power situation)
+* Send text/email/messenger/whatever when panicking
+
+## What will it look like?
+Since it's a service running all of the time it won't really look like anything a all to most humans.
+
+However, I imagine a local secure web interface, accessible via your van Internet connection, for everything from confuration nd mangement, to monitoring and alerts.
+
+I also imagine a secure web service hosted online somewhere where the interface to it all will be available from anywhere, plus a whole bunch of APIs for sending the data and queriing it.
+
+GPS coordinates of your van are a tricky since no-one wants their van stolen so the system would need to be secure and accurate location data will be subject to access controls.
 
 ## But whhhhhhhhhhhhhhyyyyyy?
 I don't go near this stuff in my job and it looks like fun to me, it might look like just more typing like I do at work but it's not, it has elements of fun that I don't get with my day job (which is also a lot of fun)
@@ -68,8 +82,6 @@ Questions like;
 * How much diesel used, to go how far
 
 Hopefully, with what I'd like to do, we'll be able to answer those questions fairly easily because, with it being open for anyone to use or contribute to, we should see lots of different configurations of vans from lots of different people (Yes, I am an optimist).
-
-I'm not planning to make money from this, it's just because I am curious and it seems like a fun project.
 
 That's it, that's the sum of all my thoughts on it for now.
 
